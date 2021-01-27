@@ -216,3 +216,17 @@ footer {
 .img-circle {
   width: 300px;
 }
+
+@media (max-width: 425px) {
+  #contact-debug {
+    margin-top: 750px !important;
+    background: crimson !important;
+  }
+}
+
+
+@media (min-width: 990px) and (max-width: 1199px) {
+  #language-debug {
+    font-size: 28px;
+  }
+}

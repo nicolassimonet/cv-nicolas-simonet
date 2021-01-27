@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <!-- header section -->
     <header>
       <div class="container">
@@ -23,8 +22,8 @@
               class="img-responsive img-circle"
             />
 
-            <h1 class="white">Bonjour, Je m'appelle Nicolas</h1>
-            <h1 class="white" style="font-size: 28px">
+            <h1 class="white">Bonjour, je suis Nicolas</h1>
+            <h1 class="white" style="font-size: 24px">
               Développeur web/web mobile
             </h1>
           </div>
@@ -35,8 +34,8 @@
     <!-- Contact et compétences -->
     <section class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <div class="contact">
+        <div class="col-12 col-md-6">
+          <div class="contact" id="contact-debug">
             <h2>Contact</h2>
             <p>
               <i class="fa fa-map-marker"></i> 10 Square Général de Gaulle,
@@ -46,8 +45,8 @@
             <p><i class="fa fa-envelope"></i>nicolas-simonet@live.fr</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="skills">
+        <div class="col-md-6 col-12">
+          <div class="skills" id="skills-debug">
             <h2 class="white">Compétences :</h2>
             <strong>HTML & CSS</strong>
             <span class="pull-right">90%</span>
@@ -104,7 +103,7 @@
             </h4>
             <div class="education-school">
               <br />
-              <h5>PSC1 & 2 : Prvention et Secours civiques, niveau 1 & 2</h5>
+              <h5>PSC1 & 2 : Prévention et Secours civiques, niveau 1 & 2</h5>
               <span></span>
               <h5>
                 Informatique : Windows, Linux, Suite Office, Photoshop, FL
@@ -115,7 +114,7 @@
         </div>
         <div class="col-md-4">
           <div class="languages">
-            <h2>Languages en cours d'apprentissage</h2>
+            <h2 id="language-debug">Languages en cours d'apprentissage</h2>
             <ul>
               <li>Anglais</li>
               <li>Russe</li>
@@ -128,21 +127,20 @@
     <!-- centres d'intérêt et expérience -->
     <section class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-12" style="margin-top: 5%;">
-          <div class="interest" style="padding: 20px;">
+        <div class="col-md-4 col-sm-12" style="margin-top: 5%">
+          <div class="interest" style="padding: 20px">
             <h3 class="accent">Centres d'intérêt</h3>
             <ul style="margin-top: 5%">
               <li>Beatmaking</li>
               <li>Piano</li>
               <li>Lecture</li>
-              <li>Développement web</li>
               <li>Jeux-vidéos</li>
             </ul>
           </div>
         </div>
         <div class="col-md-8 col-sm-12">
           <div class="experience">
-            <h2 class="white">Expériences</h2>
+            <h2 class="white">Expériences professionnelles</h2>
             <div class="experience-content">
               <h4 class="experience-title accent">Commercial terrain</h4>
               <h5>Engie</h5>
@@ -176,18 +174,18 @@
               <span></span>
               <h5>2018-19 (3 mois)</h5>
               <p class="education-description">
-                Tenue du standart; Pointage des appels; Redirection vers les
+                Tenue du standard; Pointage des appels; Redirection vers les
                 services et volontariat formation PSC1 & 2 en centre et dans les
                 écoles
               </p>
               <hr />
-              <h4 class="experience-title accent">Assistant Informatique</h4>
+              <h4 class="experience-title accent">Assistant informatique</h4>
               <h5>Ouest-Provence</h5>
               <span></span>
               <h5>2018 (stage 1 mois)</h5>
               <p class="education-description">
                 Assistance aux utilisateurs; Dépannages (Soft et hard);
-                Installatons, branchements de poste; Recherche de pannes;
+                Installations, installation de poste; Recherche de pannes;
                 Déploiement de Windows
               </p>
             </div>
@@ -201,10 +199,31 @@
         <div class="row">
           <div class="col-md-12 col-sm-12">
             <ul class="social-icons">
-              <li><a href="https://fr-fr.facebook.com/Rethios" class="fa fa-facebook"></a></li>
+              <li>
+                <a
+                  href="https://fr-fr.facebook.com/Rethios"
+                  class="fa fa-facebook"
+                >
+                <span class="sr-only">Facebook</span>
+              </a>
+              </li>
               <li><a href="#" class="fa fa-twitter"></a></li>
-              <li><a href="https://github.com/nicolassimonet" class="fa fa-github"></a></li>
-              <li><a href="https://www.linkedin.com/in/nicolas-simonet-872680192/" class="fa fa-linkedin"></a></li>
+              <li>
+                <a
+                  href="https://github.com/nicolassimonet"
+                  class="fa fa-github"
+                >
+                <span class="sr-only">Github</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/nicolas-simonet-872680192/"
+                  class="fa fa-linkedin"
+                >
+                <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
